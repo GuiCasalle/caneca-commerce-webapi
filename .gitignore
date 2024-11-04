@@ -1,0 +1,66 @@
+# Criado por https://www.toptal.com/developers/gitignore/api/circuitpython,venv,visualstudiocode,flashbuilder
+# Edite em https://www.toptal.com/developers/gitignore?templates=circuitpython,venv,visualstudiocode,flashbuilder
+
+### Circuito Python ###
+.Lixos
+.metadata_never_index
+.fseventsd/
+boot_out.txt
+
+### Construtor de Flash ###
+# Pastas de construção e lançamento
+lata/
+bin-depuração/
+liberação-de-lixeira/
+Propriedades .actionScript
+.flexConfig.xml
+
+# somente para um projeto não relacionado à biblioteca
+.flexPropriedades
+
+# somente para projeto de biblioteca
+.flexLibPropriedades
+
+# Outros arquivos e pastas
+.configurações/
+.projeto/
+
+.Configurações da FlexUnit
+.Construtores de Ferramentas Externas
+.modelo
+
+
+### venv ###
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+.Píton
+[Bb]em
+[Ii]incluir
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]criptos
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+
+### Código do VisualStudio ###
+.vscode/*
+!.vscode/configurações.json
+!.vscode/tarefas.json
+!.vscode/launch.json
+!.vscode/extensões.json
+!.vscode/*.trechos-de-código
+
+# Histórico local para o Visual Studio Code
+.história/
+
+# Extensões de código do Visual Studio criadas
+*.vsix
+
+### Patch do VisualStudioCode ###
+# Ignorar todo o histórico local de arquivos
+.história
+.ionídeo
+
+# Fim de https://www.toptal.com/developers/gitignore/api/circuitpython,venv,visualstudiocode,flashbuilder
